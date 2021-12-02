@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+body {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+label {
+  font-weight: bold;
+}
+
+.login-titulo {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login-subtitulo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login-forget {
+  font-weight: lighter;
+  text-decoration: underline;
+}

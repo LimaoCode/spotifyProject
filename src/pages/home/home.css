@@ -1,0 +1,156 @@
+.home-body {
+  background-color: #1a1a1a;
+  height: 100%;
+}
+
+/*Estilo do home*/
+.header-home-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header-home-titulo {
+  height: max-content;
+  width: max-content;
+  color: #fff;
+}
+
+.header-home-icone {
+  width: 28px;
+  height: 28px;
+  padding: 15px 20px;
+}
+
+/*Estilo do Container*/
+.card__section {
+  background-color: #1a1a1a;
+  padding-left: 15px;
+  padding-bottom: 50px;
+}
+
+.card__section__titulo {
+  padding: 15px 0;
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #fff;
+}
+
+.card__wrap {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: visible;
+}
+
+/*Estilo do Card*/
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  align-items: center;
+}
+.card__imagem {
+  background-color: blue;
+}
+.card__titulo {
+  color: #fff;
+  margin: 5px auto;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+/*Estilo da sidebar*/
+.sidebar-container {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.sidebar-logo {
+  visibility: hidden;
+  margin: 20px 50px;
+  padding: 0 15px;
+  width: 120px;
+  height: 35px;
+}
+
+/*Estilo do nav*/
+.navegation-container {
+  padding: 5px;
+}
+
+.navegation-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navegation-wrap-extend {
+  visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navegation-botao {
+    display: flex;
+    flex-direction: column;
+  color: #cdcdcd;
+  text-decoration: none;
+}
+
+.navegation-botao:hover {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+}
+
+.navegation-botao:active {
+  background-color: #cdcdcd7a;
+  color: #fff;
+}
+
+.navegation-icon {
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+}
+
+.navegation-titulo {
+  margin: 0 auto;
+  font-size: 0.6em;
+  font-weight: 500;
+}
+
+/*Estilo da playlist*/
+/*
+  .playlist-container {
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 80%;
+    max-height: 100%;
+    overflow:auto;
+  }
+  
+  .playlist-link {
+    color: #d9dadc;
+    cursor: default;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+  }
+  
+  .playlist-link:hover {
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+  }
+  
+  */
